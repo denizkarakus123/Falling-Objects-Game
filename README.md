@@ -1,2 +1,2 @@
 # Falling-Objects-Game
-Falling objects game on a a DE1-SoC development board using C
+This project implements a falling objects game on a DE1-SoC board using C. Within a hidden 5x5 grid, objects drop from the top at random intervals and speeds, while the player controls a character at the bottom with a PS2 keyboard to catch them. The game uses direct memory-mapped I/O for VGA graphics and timer polling via the ARM private counter to update gameplay, manage collision detection, and track the score.
